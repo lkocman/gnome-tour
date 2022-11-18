@@ -20,20 +20,6 @@
         </child>
         <child>
           <object class="ImagePageWidget">
-            <property name="resource-uri">/org/gnome/Tour/search.svg</property>
-            <property name="head" translatable="yes">Just Type to Search</property>
-            <property name="body" translatable="yes">Type in the overview to search. Launch apps, find things.</property>
-          </object>
-        </child>
-        <child>
-          <object class="ImagePageWidget">
-            <property name="resource-uri">/org/gnome/Tour/workspaces.svg</property>
-            <property name="head" translatable="yes">Keep on Top with Workspaces</property>
-            <property name="body" translatable="yes">Easily organize windows with the workspaces view.</property>
-          </object>
-        </child>
-        <child>
-          <object class="ImagePageWidget">
             <property name="resource-uri">/org/gnome/Tour/blank.svg</property>
             <property name="head" translatable="yes">Up/Down for the Overview</property>
             <property name="body" translatable="yes">On a touchpad, use three-finger vertical swipes. Try it!</property>
