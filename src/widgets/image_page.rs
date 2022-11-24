@@ -14,6 +14,8 @@ mod imp {
         pub(super) resource_uri: OnceCell<String>,
         pub(super) head: OnceCell<String>,
         pub(super) body: RefCell<String>,
+        pub(super) extra: RefCell<String>,
+        pub(super) extra_uri: RefCell<String>,
         pub(super) picture: gtk::Picture,
     }
 
@@ -80,6 +82,22 @@ mod imp {
                 .build();
             container.append(&body_label);
 
+            let extra_button = gtk::LinkButton::builder().margin_top(12).build();
+            obj.bind_property("extra", &extra_button, "label")
+                .flags(glib::BindingFlags::SYNC_CREATE)
+                .build();
+            obj.bind_property("extra-uri", &extra_button, "uri")
+                .flags(glib::BindingFlags::SYNC_CREATE)
+                .build();
+            obj.bind_property("extra", &extra_button, "visible")
+                .flags(glib::BindingFlags::SYNC_CREATE)
+                .transform_to(|_, value: &glib::Value| {
+                    let extra = value.get::<Option<String>>().unwrap()?;
+                    Some((!extra.is_empty()).to_value())
+                })
+                .build();
+            container.append(&extra_button);
+
             obj.append(&clamp);
             self.parent_constructed(obj);
         }
@@ -95,6 +113,12 @@ mod imp {
                         .build(),
                     ParamSpecString::builder("body")
                         .flags(ParamFlags::READWRITE | ParamFlags::CONSTRUCT)
+                        .build(),
+                    ParamSpecString::builder("extra")
+                        .flags(ParamFlags::READWRITE | ParamFlags::CONSTRUCT_ONLY)
+                        .build(),
+                    ParamSpecString::builder("extra-uri")
+                        .flags(ParamFlags::READWRITE | ParamFlags::CONSTRUCT_ONLY)
                         .build(),
                 ]
             });
@@ -117,6 +141,16 @@ mod imp {
                         self.body.replace(body);
                     }
                 }
+                "extra" => {
+                    if let Some(extra) = value.get::<Option<String>>().unwrap() {
+                        self.extra.replace(extra);
+                    }
+                }
+                "extra-uri" => {
+                    if let Some(extra_uri) = value.get::<Option<String>>().unwrap() {
+                        self.extra_uri.replace(extra_uri);
+                    }
+                }
                 _ => unimplemented!(),
             }
         }
@@ -126,6 +160,8 @@ mod imp {
                 "resource-uri" => self.resource_uri.get().to_value(),
                 "head" => self.head.get().to_value(),
                 "body" => self.body.borrow().to_value(),
+                "extra" => self.extra.borrow().to_value(),
+                "extra-uri" => self.extra_uri.borrow().to_value(),
                 _ => unimplemented!(),
             }
         }
@@ -140,11 +176,19 @@ glib::wrapper! {
 }
 
 impl ImagePageWidget {
-    pub fn new(resource_uri: &str, head: String, body: String) -> Self {
+    pub fn new(
+        resource_uri: &str,
+        head: String,
+        body: String,
+        extra: String,
+        extra_uri: String,
+    ) -> Self {
         glib::Object::new::<Self>(&[
             ("resource-uri", &resource_uri),
             ("head", &head),
             ("body", &body),
+            ("extra", &extra),
+            ("extra-uri", &extra_uri),
         ])
         .unwrap()
     }
