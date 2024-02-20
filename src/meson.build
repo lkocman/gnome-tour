@@ -31,8 +31,6 @@ else
   message('Building in debug mode')
 endif
 
-cargo_env = [ 'CARGO_HOME=' + meson.project_build_root() / 'cargo-home' ]
-
 cargo_build = custom_target(
   'cargo-build',
   build_by_default: true,
@@ -43,8 +41,6 @@ cargo_build = custom_target(
   install_dir: bindir,
   depends: resources,
   command: [
-    'env',
-    cargo_env,
     cargo, 'build',
     cargo_options,
     '&&',
