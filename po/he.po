@@ -1,26 +1,28 @@
-# Hebrew translation for gnome-tour.
-# Copyright (C) 2020 gnome-tour's COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-tour package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# Yosef Or Boczko <yoseforb@gmail.com>, 2020-2022.
-#
+# 
+# Translators:
+# Will Thompson <wjt@endlessos.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2022-01-29 11:03+0000\n"
-"PO-Revision-Date: 2022-02-06 00:55+0200\n"
-"Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
-"Language-Team: Hebrew <yoseforb@gmail.com>\n"
-"Language: he\n"
+"Project-Id-Version: gnome-tour\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-08 10:53+0000\n"
+"PO-Revision-Date: 2022-12-08 00:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
+"Language-Team: Hebrew (https://app.transifex.com/endless-os/teams/9016/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n>2||n==0) ? 1 : 2\n"
-"X-Generator: Gtranslator 40.0\n"
+"Language: he\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
 
-#: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: data/org.gnome.Tour.desktop.in.in:3
+#: data/org.gnome.Tour.metainfo.xml.in.in:7 src/main.rs:21
 msgid "Tour"
 msgstr "סיור מודרך"
 
@@ -30,144 +32,74 @@ msgstr "סיור מודרך וקבלת פנים"
 
 #: data/org.gnome.Tour.desktop.in.in:9
 msgid "Gnome;GTK;"
-msgstr "‫Gnome;GTK;גנום;"
+msgstr "Gnome;GTK;"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:8
 msgid "GNOME Tour and Greeter"
-msgstr "סיור מודרך וקבלת פנים ל־GNOME"
+msgstr "סיור מודרך וקבלת פנים ב־GNOME"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:10
 msgid "A guided tour and greeter for GNOME."
 msgstr "סיור מודרך וקבלת פנים עבור GNOME."
 
-#: data/org.gnome.Tour.metainfo.xml.in.in:15
-msgid "Main Window"
-msgstr "חלון ראשי"
-
-#: data/org.gnome.Tour.metainfo.xml.in.in:38
+#: data/org.gnome.Tour.metainfo.xml.in.in:41
 msgid "The GNOME Project"
 msgstr "מיזם GNOME"
 
 #: data/resources/ui/paginator.ui:27
-#| msgid "_Previous"
 msgid "Previous"
-msgstr "הקודם"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:40
-#| msgid "_Next"
 msgid "Next"
-msgstr "הבא"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:53
-#| msgid "_Start"
 msgid "Start"
-msgstr "התחלה"
+msgstr ""
 
 #: data/resources/ui/window.ui:11
-msgid "Get an Overview"
-msgstr "הצגת סקירה"
-
-#: data/resources/ui/window.ui:12
-msgid "Press the Super key to see open windows and apps."
-msgstr "לחיצה על מקש סופר (Windows) תציג את החלונות והיישומים הפתוחים."
-
-#: data/resources/ui/window.ui:18
-msgid "Just Type to Search"
-msgstr "יש להקליד לחיפוש"
-
-#: data/resources/ui/window.ui:19
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr "הקלדה בסקירה תבצע חיפוש. כך מפעילים יישומים ומוצאים כל מיני דברים."
-
-#: data/resources/ui/window.ui:25
-msgid "Keep on Top with Workspaces"
-msgstr "מרחבי עבודה משאירים אותך במרכז העניינים"
-
-#: data/resources/ui/window.ui:26
-msgid "Easily organize windows with the workspaces view."
-msgstr "אפשר לארגן חלונות בקלות עם תצוגת מרחבי העבודה."
-
-#: data/resources/ui/window.ui:32
-msgid "Up/Down for the Overview"
-msgstr "למעלה/למטה לסקירה"
-
-#: data/resources/ui/window.ui:33
-msgid "On a touchpad, use three-finger vertical swipes. Try it!"
-msgstr "במשטח מגע, ניתן להשתמש במשיכות אנכיות בשלוש אצבעות. כדאי לנסות!"
-
-#: data/resources/ui/window.ui:39
-msgid "Left/Right for Workspaces"
-msgstr "שמאל/ימין למרחבי עבודה"
-
-#: data/resources/ui/window.ui:40
-msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr "‫במשטח מגע, ניתן להשתמש במשיכות אופקיות בשלוש אצבעות. כדאי לנסות!"
-
-#: data/resources/ui/window.ui:46
-msgid "That's it. Have a nice day!"
-msgstr "זה הכול. המשך יום נעים!"
-
-#: data/resources/ui/window.ui:47
-msgid "To get more advice and tips, see the Help app."
-msgstr "לקבלת עצות, יש לפתוח את היישום עזרה."
-
-#: src/widgets/paginator.rs:79
-#| msgid "Learn about the key features in {} {}."
-msgid "Learn about the key features in {name} {version}."
-msgstr "ללמוד על התכונות העיקריות ב־‏{name} {version}."
-
-#: src/widgets/paginator.rs:84
 msgid "Start the Tour"
 msgstr "התחלת הסיור"
 
-#~ msgid "_Close"
-#~ msgstr "_סגירה"
+#: data/resources/ui/window.ui:12 data/resources/ui/window.ui:42
+msgid "Learn more about Endless OS 5 on our website"
+msgstr ""
 
-#~ msgid "Make Apps Your Own"
-#~ msgstr "התאמת יישומים לטעמך"
+#: data/resources/ui/window.ui:19
+msgid "Get an Overview"
+msgstr "הצגת סקירה"
 
-#~ msgid "Arrange the app grid to your liking."
-#~ msgstr "סידור רשת היישומים בדרך הנוחה לך."
+#: data/resources/ui/window.ui:20
+msgid "Press the Super key to see open windows and apps."
+msgstr "לחיצה על מקש סופר (Windows) תציג את החלונות והיישומים הפתוחים."
 
-#~ msgid "That's it! We hope that you enjoy {} {}."
-#~ msgstr "זה הכול! מאחלים לך ליהנות מ־{}."
+#: data/resources/ui/window.ui:26
+msgid "Up/Down for the Overview"
+msgstr "למעלה/למטה לסקירה"
 
-#~ msgid "Welcome to {} {}"
-#~ msgstr "ברוך בואך אל ‏{}‏ {}"
+#: data/resources/ui/window.ui:27
+msgid "On a touchpad, use three-finger vertical swipes. Try it!"
+msgstr "במשטח מגע, ניתן להשתמש במשיכות אנכיות בשלוש אצבעות. כדאי לנסות!"
 
-#~ msgid ""
-#~ "Hi there! Take the tour to learn your way around and discover essential "
-#~ "features."
-#~ msgstr ""
-#~ "שלום! השתמשו בסיור המודרך על מנת ללמוד על הדרך שלך ב־GNOME ולגלות תכונות "
-#~ "מהותיות."
+#: data/resources/ui/window.ui:33
+msgid "Left/Right for Workspaces"
+msgstr "שמאל/ימין למרחבי עבודה"
 
-#~ msgid "_No Thanks"
-#~ msgstr "_לא תודה"
+#: data/resources/ui/window.ui:34
+msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
+msgstr "‫במשטח מגע, ניתן להשתמש במשיכות אופקיות בשלוש אצבעות. כדאי לנסות!"
 
-#~ msgid "The activities view can also be used to switch windows and search."
-#~ msgstr "תצוגת פעילויות יכולה לשמש גם כמעבר בין חלונות וכן לחיפוש."
+#: data/resources/ui/window.ui:40
+msgid "That's it. Have a nice day!"
+msgstr "זה הכול. המשך יום נעים!"
 
-#~ msgid ""
-#~ "In the activities view, just start typing to search for apps, settings "
-#~ "and more."
-#~ msgstr "בתצוגת פעילויות, יש רק להקליד על מנת לחפש יישומים, הגדרות ועוד."
+#: data/resources/ui/window.ui:41
+msgid "To get more advice and tips, see the Help app."
+msgstr "לקבלת עצות, יש לפתוח את היישום עזרה."
 
-#~ msgid "Click the time to see notifications"
-#~ msgstr "יש ללחוץ על התאריך על מנת לצפות בהתרעות"
-
-#~ msgid "The notifications popover also includes personal planning tools."
-#~ msgstr "בועת ההתרעות כוללת גם תכניות פרטיות וכלים."
-
-#~ msgid "View system information and settings"
-#~ msgstr "הצגת מידע והגדרות מערכת"
-
-#~ msgid "Get an overview of the system status and quickly change settings."
-#~ msgstr "קבלת סקירה על מצב המערכת ושינוי מהיר של הגדרות."
-
-#~ msgid "Use Software to find and install apps"
-#~ msgstr "שימוש בתכנה על מנת למצוא ולהתקין יישומים"
-
-#~ msgid ""
-#~ "Discover great apps through search, browsing and our recommendations."
-#~ msgstr "לגלות יישומים מדהימים על ידי חיפוש, דפדוף והמלצות שלנו."
+#. Translators: The following string is formated as "Learn about new and
+#. essential features in GNOME 3.36" for example
+#: src/widgets/window.rs:52
+msgid "Learn about the key features in {name} {version}."
+msgstr ""

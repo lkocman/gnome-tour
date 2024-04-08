@@ -1,25 +1,28 @@
-# Czech translation for gnome-tour.
-# Copyright (C) 2020 gnome-tour's COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-tour package.
-#
-# Marek Černocký <marek@manet.cz>, 2020, 2021, 2022.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Will Thompson <wjt@endlessos.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2022-01-29 11:03+0000\n"
-"PO-Revision-Date: 2022-02-09 20:55+0200\n"
-"Last-Translator: Marek Černocký <marek@manet.cz>\n"
-"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
-"Language: cs\n"
+"Project-Id-Version: gnome-tour\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-08 10:53+0000\n"
+"PO-Revision-Date: 2022-12-08 00:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
+"Language-Team: Czech (https://app.transifex.com/endless-os/teams/9016/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
-#: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: data/org.gnome.Tour.desktop.in.in:3
+#: data/org.gnome.Tour.metainfo.xml.in.in:7 src/main.rs:21
 msgid "Tour"
 msgstr "Prohlídka"
 
@@ -39,81 +42,64 @@ msgstr "Uvítání a prohlídka GNOME"
 msgid "A guided tour and greeter for GNOME."
 msgstr "Prohlídka s průvodcem a uvítání do GNOME."
 
-#: data/org.gnome.Tour.metainfo.xml.in.in:15
-msgid "Main Window"
-msgstr "Hlavní okno"
-
-#: data/org.gnome.Tour.metainfo.xml.in.in:38
+#: data/org.gnome.Tour.metainfo.xml.in.in:41
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
 
 #: data/resources/ui/paginator.ui:27
 msgid "Previous"
-msgstr "Předchozí"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:40
 msgid "Next"
-msgstr "Následující"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:53
 msgid "Start"
-msgstr "Začít"
+msgstr ""
 
 #: data/resources/ui/window.ui:11
+msgid "Start the Tour"
+msgstr "Začít prohlídku"
+
+#: data/resources/ui/window.ui:12 data/resources/ui/window.ui:42
+msgid "Learn more about Endless OS 5 on our website"
+msgstr ""
+
+#: data/resources/ui/window.ui:19
 msgid "Get an Overview"
 msgstr "Získejte přehled"
 
-#: data/resources/ui/window.ui:12
+#: data/resources/ui/window.ui:20
 msgid "Press the Super key to see open windows and apps."
 msgstr "Po zmáčknutí klávesy Super uvidíte otevřená okna a aplikace."
 
-#: data/resources/ui/window.ui:18
-msgid "Just Type to Search"
-msgstr "Hledejte pouhým psaním"
-
-#: data/resources/ui/window.ui:19
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr ""
-"Stačí začít psát v přehledu činností. Tak můžete spouštět aplikace a hledat "
-"různé věci."
-
-#: data/resources/ui/window.ui:25
-msgid "Keep on Top with Workspaces"
-msgstr "Vyznejte se díky pracovním plochám"
-
 #: data/resources/ui/window.ui:26
-msgid "Easily organize windows with the workspaces view."
-msgstr ""
-"Udržet si pořádek v oknech je snadné pomocí zobrazení pracovních ploch."
-
-#: data/resources/ui/window.ui:32
 msgid "Up/Down for the Overview"
 msgstr "Nahoru/dolů do přehledu"
 
-#: data/resources/ui/window.ui:33
+#: data/resources/ui/window.ui:27
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
 msgstr "Na touchpadu použijte svislé máchnutí třemi prsty. Zkuste si to!"
 
-#: data/resources/ui/window.ui:39
+#: data/resources/ui/window.ui:33
 msgid "Left/Right for Workspaces"
 msgstr "Vlevo/vpravo do pracovních ploch"
 
-#: data/resources/ui/window.ui:40
+#: data/resources/ui/window.ui:34
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
 msgstr "Na touchpadu použijte vodorovné máchnutí třemi prsty. Zkuste si to!"
 
-#: data/resources/ui/window.ui:46
+#: data/resources/ui/window.ui:40
 msgid "That's it. Have a nice day!"
 msgstr "A to je vše. Přejeme hezký den!"
 
-#: data/resources/ui/window.ui:47
+#: data/resources/ui/window.ui:41
 msgid "To get more advice and tips, see the Help app."
 msgstr "Další rady a tipy najdete v aplikaci Nápověda."
 
-#: src/widgets/paginator.rs:79
+#. Translators: The following string is formated as "Learn about new and
+#. essential features in GNOME 3.36" for example
+#: src/widgets/window.rs:52
 msgid "Learn about the key features in {name} {version}."
-msgstr "Seznamte se s důležitými funkcemi, které {name} {version} přináší."
-
-#: src/widgets/paginator.rs:84
-msgid "Start the Tour"
-msgstr "Začít prohlídku"
+msgstr ""

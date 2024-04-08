@@ -1,25 +1,28 @@
-# Italian translation for gnome-tour.
-# Copyright (C) 2020, 2021i, 2022 Free Software Foundations, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-tour package.
-# Milo Casagrande <milo@milo.name>, 2020, 2021, 2022.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Will Thompson <wjt@endlessos.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2022-02-24 18:19+0000\n"
-"PO-Revision-Date: 2022-03-15 17:45+0100\n"
-"Last-Translator: Milo Casagrande <milo@milo.name>\n"
-"Language-Team: Italian <gnome-it-list@gnome.org>\n"
-"Language: it\n"
+"Project-Id-Version: gnome-tour\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-08 10:53+0000\n"
+"PO-Revision-Date: 2022-12-08 00:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
+"Language-Team: Italian (https://app.transifex.com/endless-os/teams/9016/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: data/org.gnome.Tour.desktop.in.in:3
+#: data/org.gnome.Tour.metainfo.xml.in.in:7 src/main.rs:21
 msgid "Tour"
 msgstr "Visita guidata"
 
@@ -45,73 +48,58 @@ msgstr "Il progetto GNOME"
 
 #: data/resources/ui/paginator.ui:27
 msgid "Previous"
-msgstr "Precedente"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:40
 msgid "Next"
-msgstr "Successivo"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:53
 msgid "Start"
-msgstr "Avvia"
+msgstr ""
 
 #: data/resources/ui/window.ui:11
 msgid "Start the Tour"
 msgstr "Avvia la visita"
 
-#: data/resources/ui/window.ui:17
+#: data/resources/ui/window.ui:12 data/resources/ui/window.ui:42
+msgid "Learn more about Endless OS 5 on our website"
+msgstr ""
+
+#: data/resources/ui/window.ui:19
 msgid "Get an Overview"
 msgstr "Ottieni una panoramica"
 
-#: data/resources/ui/window.ui:18
+#: data/resources/ui/window.ui:20
 msgid "Press the Super key to see open windows and apps."
 msgstr "Premi Super per visualizzare finestre e app aperte."
 
-#: data/resources/ui/window.ui:24
-msgid "Just Type to Search"
-msgstr "Ti basta digitare per cercare"
-
-#: data/resources/ui/window.ui:25
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr ""
-"Quando ti trovi nella panoramica, digita per eseguire una ricerca, lanciare "
-"applicazioni o trovare quello che ti serve."
-
-#: data/resources/ui/window.ui:31
-msgid "Keep on Top with Workspaces"
-msgstr "Tieniti al passo con gli spazi di lavoro"
-
-#: data/resources/ui/window.ui:32
-msgid "Easily organize windows with the workspaces view."
-msgstr ""
-"Organizza facilmente le finestre con la visualizzazione degli spazi di "
-"lavoro."
-
-#: data/resources/ui/window.ui:38
+#: data/resources/ui/window.ui:26
 msgid "Up/Down for the Overview"
 msgstr "Su/Giù per la panoramica"
 
-#: data/resources/ui/window.ui:39
+#: data/resources/ui/window.ui:27
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
 msgstr "Con un touchpad usa scorrimenti verticali a tre dita. Prova!"
 
-#: data/resources/ui/window.ui:45
+#: data/resources/ui/window.ui:33
 msgid "Left/Right for Workspaces"
 msgstr "Sinistra/Destra per gli spazi di lavoro"
 
-#: data/resources/ui/window.ui:46
+#: data/resources/ui/window.ui:34
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr "Con un touchpad, usa scorrimenti orizzontali a tre dita. Prova!"
+msgstr "Con un touchpad usa scorrimenti orizzontali a tre dita. Prova!"
 
-#: data/resources/ui/window.ui:52
+#: data/resources/ui/window.ui:40
 msgid "That's it. Have a nice day!"
 msgstr "Questo è tutto, buona giornata!"
 
-#: data/resources/ui/window.ui:53
+#: data/resources/ui/window.ui:41
 msgid "To get more advice and tips, see the Help app."
 msgstr "Per maggiore aiuto o consigli, consulta l'app Aiuto."
 
-#. Translators: The following string is formated as "Learn about new and essential features in GNOME 3.36" for example
-#: src/widgets/window.rs:53
+#. Translators: The following string is formated as "Learn about new and
+#. essential features in GNOME 3.36" for example
+#: src/widgets/window.rs:52
 msgid "Learn about the key features in {name} {version}."
-msgstr "Scopri le funzionalità essenziali in {name} {version}."
+msgstr ""

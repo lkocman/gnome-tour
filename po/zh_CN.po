@@ -1,26 +1,28 @@
-# Chinese (China) translation for gnome-tour.
-# Copyright (C) 2020 gnome-tour's COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-tour package.
-# Boyuan Yang <073plan@gmail.com>, 2020.
-# lumingzh <lumingzh@qq.com>, 2022.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Will Thompson <wjt@endlessos.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2022-01-29 11:03+0000\n"
-"PO-Revision-Date: 2022-01-29 19:15+0800\n"
-"Last-Translator: lumingzh <lumingzh@qq.com>\n"
-"Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
-"Language: zh_CN\n"
+"Project-Id-Version: gnome-tour\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-08 10:53+0000\n"
+"PO-Revision-Date: 2022-12-08 00:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/endless-os/teams/9016/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 41.0\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
-#: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: data/org.gnome.Tour.desktop.in.in:3
+#: data/org.gnome.Tour.metainfo.xml.in.in:7 src/main.rs:21
 msgid "Tour"
 msgstr "导览"
 
@@ -40,129 +42,64 @@ msgstr "GNOME 导览和欢迎界面"
 msgid "A guided tour and greeter for GNOME."
 msgstr "GNOME 的导览和欢迎界面程序。"
 
-#: data/org.gnome.Tour.metainfo.xml.in.in:15
-msgid "Main Window"
-msgstr "主窗口"
-
-#: data/org.gnome.Tour.metainfo.xml.in.in:38
+#: data/org.gnome.Tour.metainfo.xml.in.in:41
 msgid "The GNOME Project"
 msgstr "GNOME 项目"
 
 #: data/resources/ui/paginator.ui:27
 msgid "Previous"
-msgstr "上一页"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:40
 msgid "Next"
-msgstr "下一页"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:53
 msgid "Start"
-msgstr "开始"
+msgstr ""
 
 #: data/resources/ui/window.ui:11
-msgid "Get an Overview"
-msgstr "获得概览"
-
-#: data/resources/ui/window.ui:12
-msgid "Press the Super key to see open windows and apps."
-msgstr "按下 Super（徽标）键以查看窗口和应用。"
-
-#: data/resources/ui/window.ui:18
-msgid "Just Type to Search"
-msgstr "直接键入文本以搜索"
-
-#: data/resources/ui/window.ui:19
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr "在概览界面输入文本进行搜索。启动应用、寻找文件。"
-
-#: data/resources/ui/window.ui:25
-msgid "Keep on Top with Workspaces"
-msgstr "使用工作区掌控系统"
-
-#: data/resources/ui/window.ui:26
-msgid "Easily organize windows with the workspaces view."
-msgstr "使用工作区视图轻松管理窗口。"
-
-#: data/resources/ui/window.ui:32
-msgid "Up/Down for the Overview"
-msgstr "向上/向下以查看概览"
-
-#: data/resources/ui/window.ui:33
-msgid "On a touchpad, use three-finger vertical swipes. Try it!"
-msgstr "在触摸板上使用三指竖直滑动。试试吧！"
-
-#: data/resources/ui/window.ui:39
-msgid "Left/Right for Workspaces"
-msgstr "向左/向右以查看工作区"
-
-#: data/resources/ui/window.ui:40
-msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr "在触摸板上使用三指水平滑动。试试吧！"
-
-#: data/resources/ui/window.ui:46
-msgid "That's it. Have a nice day!"
-msgstr "就是这些了。祝您有美好的一天！"
-
-#: data/resources/ui/window.ui:47
-msgid "To get more advice and tips, see the Help app."
-msgstr "如需更多建议和提示，请参考“帮助”程序。"
-
-#: src/widgets/paginator.rs:79
-#| msgid "Learn about the key features in {} {}."
-msgid "Learn about the key features in {name} {version}."
-msgstr "了解 {name} {version} 中的关键功能。"
-
-#: src/widgets/paginator.rs:84
 msgid "Start the Tour"
 msgstr "开始导览"
 
-#~ msgid "_Close"
-#~ msgstr "关闭(_C)"
+#: data/resources/ui/window.ui:12 data/resources/ui/window.ui:42
+msgid "Learn more about Endless OS 5 on our website"
+msgstr ""
 
-#~ msgid "Make Apps Your Own"
-#~ msgstr "让应用为你所用"
+#: data/resources/ui/window.ui:19
+msgid "Get an Overview"
+msgstr "获得概览"
 
-#~ msgid "Arrange the app grid to your liking."
-#~ msgstr "按照你的喜好排列应用网格。"
+#: data/resources/ui/window.ui:20
+msgid "Press the Super key to see open windows and apps."
+msgstr "按下 Super（徽标）键以查看窗口和应用。"
 
-#~ msgid "That's it! We hope that you enjoy {} {}."
-#~ msgstr "内容就是这些了！我们希望您能享受使用 {} {}。"
+#: data/resources/ui/window.ui:26
+msgid "Up/Down for the Overview"
+msgstr "向上/向下以查看概览"
 
-#~ msgid "Welcome to {} {}"
-#~ msgstr "欢迎来到 {} {}"
+#: data/resources/ui/window.ui:27
+msgid "On a touchpad, use three-finger vertical swipes. Try it!"
+msgstr "在触摸板上使用三指竖直滑动。试试吧！"
 
-#~ msgid ""
-#~ "Hi there! Take the tour to learn your way around and discover essential "
-#~ "features."
-#~ msgstr "你好！欢迎使用本导览程序来上手使用系统并掌握基本的使用方法。"
+#: data/resources/ui/window.ui:33
+msgid "Left/Right for Workspaces"
+msgstr "向左/向右以查看工作区"
 
-#~ msgid "_No Thanks"
-#~ msgstr "不，谢谢(_N)"
+#: data/resources/ui/window.ui:34
+msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
+msgstr "在触摸板上使用三指水平滑动。试试吧！"
 
-#~ msgid "The activities view can also be used to switch windows and search."
-#~ msgstr "活动视图也可用于切换窗口和执行搜索。"
+#: data/resources/ui/window.ui:40
+msgid "That's it. Have a nice day!"
+msgstr "就是这些了。祝您有美好的一天！"
 
-#~ msgid ""
-#~ "In the activities view, just start typing to search for apps, settings "
-#~ "and more."
-#~ msgstr "在活动视图中，只需直接开始打字便可搜索应用、设置和其它更多内容。"
+#: data/resources/ui/window.ui:41
+msgid "To get more advice and tips, see the Help app."
+msgstr "如需更多建议和提示，请参考“帮助”程序。"
 
-#~ msgid "Click the time to see notifications"
-#~ msgstr "点击时间以查看通知"
-
-#~ msgid "The notifications popover also includes personal planning tools."
-#~ msgstr "弹出的通知窗口也包含了个人计划工具。"
-
-#~ msgid "View system information and settings"
-#~ msgstr "查看系统信息和设置"
-
-#~ msgid "Get an overview of the system status and quickly change settings."
-#~ msgstr "获得系统状态的概览信息，也可快速修改设置。"
-
-#~ msgid "Use Software to find and install apps"
-#~ msgstr "使用“软件”程序查找并安装应用"
-
-#~ msgid ""
-#~ "Discover great apps through search, browsing and our recommendations."
-#~ msgstr "使用浏览、搜索功能并查看我们的推荐项来发现精彩的应用程序。"
+#. Translators: The following string is formated as "Learn about new and
+#. essential features in GNOME 3.36" for example
+#: src/widgets/window.rs:52
+msgid "Learn about the key features in {name} {version}."
+msgstr ""

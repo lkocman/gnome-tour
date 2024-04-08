@@ -1,25 +1,28 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2020, 2021, 2022.
+# This file is distributed under the same license as the gnome-tour package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Will Thompson <wjt@endlessos.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2022-02-24 18:19+0000\n"
-"PO-Revision-Date: 2022-03-24 23:24+0200\n"
-"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
-"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
-"Language: lv\n"
+"Project-Id-Version: gnome-tour\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-08 10:53+0000\n"
+"PO-Revision-Date: 2022-12-08 00:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
+"Language-Team: Latvian (https://app.transifex.com/endless-os/teams/9016/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 :"
-" 2);\n"
-"X-Generator: Lokalize 21.08.1\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-#: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: data/org.gnome.Tour.desktop.in.in:3
+#: data/org.gnome.Tour.metainfo.xml.in.in:7 src/main.rs:21
 msgid "Tour"
 msgstr "Ceļvedis"
 
@@ -44,133 +47,62 @@ msgid "The GNOME Project"
 msgstr "GNOME projekts"
 
 #: data/resources/ui/paginator.ui:27
-#| msgid "_Previous"
 msgid "Previous"
-msgstr "Iepriekšējais"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:40
-#| msgid "_Next"
 msgid "Next"
-msgstr "Nākamais"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:53
-#| msgid "_Start"
 msgid "Start"
-msgstr "Sākums"
+msgstr ""
 
 #: data/resources/ui/window.ui:11
 msgid "Start the Tour"
 msgstr "Sākt ceļojumu"
 
-#: data/resources/ui/window.ui:17
+#: data/resources/ui/window.ui:12 data/resources/ui/window.ui:42
+msgid "Learn more about Endless OS 5 on our website"
+msgstr ""
+
+#: data/resources/ui/window.ui:19
 msgid "Get an Overview"
 msgstr "Iegūt pārskatu"
 
-#: data/resources/ui/window.ui:18
+#: data/resources/ui/window.ui:20
 msgid "Press the Super key to see open windows and apps."
 msgstr "Spiediet Super taustiņu, lai atvērtu logus un lietotnes."
 
-#: data/resources/ui/window.ui:24
-msgid "Just Type to Search"
-msgstr "Vienkārši sāciet rakstīt, lai meklētu"
-
-#: data/resources/ui/window.ui:25
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr ""
-"Lai meklētu, sāciet rakstīt pārskata režīmā. Palaidiet lietotnes, atrodiet "
-"lietas."
-
-#: data/resources/ui/window.ui:31
-msgid "Keep on Top with Workspaces"
-msgstr "Pārvaldiet darbvietas"
-
-#: data/resources/ui/window.ui:32
-msgid "Easily organize windows with the workspaces view."
-msgstr "Viegli organizējiet logus darbtelpu skatā."
-
-#: data/resources/ui/window.ui:38
+#: data/resources/ui/window.ui:26
 msgid "Up/Down for the Overview"
 msgstr "Uz augšu/leju pārskatam"
 
-#: data/resources/ui/window.ui:39
+#: data/resources/ui/window.ui:27
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
 msgstr ""
 "Uz skārienpaliktņa izmantojiet trīs pirkstu vertikālo vilkšanu. Pamēģiniet!"
 
-#: data/resources/ui/window.ui:45
+#: data/resources/ui/window.ui:33
 msgid "Left/Right for Workspaces"
 msgstr "Pa labi/kreisi darbvirsmām"
 
-#: data/resources/ui/window.ui:46
+#: data/resources/ui/window.ui:34
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
 msgstr ""
-"Uz skārienpaliktņa izmantojiet trīs pirkstu horizontālo vilkšanu. Pamēģiniet!"
+"Uz skārienpaliktņa izmantojiet trīs pirkstu horizontālo vilkšanu. "
+"Pamēģiniet!"
 
-#: data/resources/ui/window.ui:52
+#: data/resources/ui/window.ui:40
 msgid "That's it. Have a nice day!"
 msgstr "Tas arī viss. Lai jums jauka diena!"
 
-#: data/resources/ui/window.ui:53
+#: data/resources/ui/window.ui:41
 msgid "To get more advice and tips, see the Help app."
 msgstr "Lai iegūtu palīdzību un padomus, skatiet Palīdzības lietotni."
 
-#. Translators: The following string is formated as "Learn about new and essential features in GNOME 3.36" for example
-#: src/widgets/window.rs:53
-#| msgid "Learn about the key features in {} {}."
+#. Translators: The following string is formated as "Learn about new and
+#. essential features in GNOME 3.36" for example
+#: src/widgets/window.rs:52
 msgid "Learn about the key features in {name} {version}."
-msgstr "Uzziniet par galvenajām iespējām {name} {version}."
-
-#~ msgid "Main Window"
-#~ msgstr "Galvenais logs"
-
-#~ msgid "_Close"
-#~ msgstr "_Aizvērt"
-
-#~ msgid "Welcome to {} {}"
-#~ msgstr "Laipni lūdzam {} {}"
-
-#~ msgid ""
-#~ "Hi there! Take the tour to learn your way around and discover essential "
-#~ "features."
-#~ msgstr "Sveiks! Dosimies apskatīt darbvirsmu un tās būtiskākās iespējas."
-
-#~ msgid "_No Thanks"
-#~ msgstr "_Nē, paldies"
-
-#~ msgid "Open Activities to launch apps"
-#~ msgstr "Atveriet Aktivitātes, lai palaistu lietotnes"
-
-#~ msgid "The activities view can also be used to switch windows and search."
-#~ msgstr ""
-#~ "Aktivitātes var arī izmantot meklēšanai un, lai pārslēgtos starp logiem."
-
-#~ msgid ""
-#~ "In the activities view, just start typing to search for apps, settings "
-#~ "and more."
-#~ msgstr ""
-#~ "Aktivitāšu skatā sāciet rakstīt, lai meklētu lietotnes, iestatījumus un "
-#~ "citas lietas."
-
-#~ msgid "Click the time to see notifications"
-#~ msgstr "Spiediet uz pulksteņa, lai redzētu paziņojumus"
-
-#~ msgid "The notifications popover also includes personal planning tools."
-#~ msgstr "Paziņojumos parādīsies arī personīgie plānošanas rīki."
-
-#~ msgid "View system information and settings"
-#~ msgstr "Skatiet iestatījumus un informāciju par sistēmu"
-
-#~ msgid "Get an overview of the system status and quickly change settings."
-#~ msgstr "Iegūstiet sistēmas statusa pārskatu un ātri mainiet iestatījumus."
-
-#~ msgid "Use Software to find and install apps"
-#~ msgstr ""
-#~ "Izmantojiet lietotni Programmatūra, lai atrastu un instalētu lietotnes"
-
-#~ msgid ""
-#~ "Discover great apps through search, browsing and our recommendations."
-#~ msgstr ""
-#~ "Atklājiet lieliskas lietotnes, meklējot un pārlūkojot mūsu ieteikumus."
-
-#~ msgid "That's it! We hope that you enjoy {}."
-#~ msgstr "Tas arī viss! Mēs ceram, ka jums patiks {}."
+msgstr ""

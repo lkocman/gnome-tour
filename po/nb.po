@@ -1,24 +1,28 @@
-# Norwegian Bokmål translation for gnome-tour.
-# Copyright (C) 2020 gnome-tour's COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-tour package.
-# Kjartan Maraas <kmaraas@gnome.org>, 2020-2022.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Will Thompson <wjt@endlessos.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2022-02-24 18:19+0000\n"
-"PO-Revision-Date: 2022-03-17 13:33+0100\n"
-"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
-"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
-"Language: nb\n"
+"Project-Id-Version: gnome-tour\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-08 10:53+0000\n"
+"PO-Revision-Date: 2022-12-08 00:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/endless-os/teams/9016/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: data/org.gnome.Tour.desktop.in.in:3
+#: data/org.gnome.Tour.metainfo.xml.in.in:7 src/main.rs:21
 msgid "Tour"
 msgstr "Omvisning"
 
@@ -44,73 +48,62 @@ msgstr "GNOME prosjektet"
 
 #: data/resources/ui/paginator.ui:27
 msgid "Previous"
-msgstr "Forrige"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:40
 msgid "Next"
-msgstr "Neste"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:53
 msgid "Start"
-msgstr "Start"
+msgstr ""
 
 #: data/resources/ui/window.ui:11
 msgid "Start the Tour"
 msgstr "Start omvisning"
 
-#: data/resources/ui/window.ui:17
+#: data/resources/ui/window.ui:12 data/resources/ui/window.ui:42
+msgid "Learn more about Endless OS 5 on our website"
+msgstr ""
+
+#: data/resources/ui/window.ui:19
 msgid "Get an Overview"
 msgstr "Få en oversikt"
 
-#: data/resources/ui/window.ui:18
+#: data/resources/ui/window.ui:20
 msgid "Press the Super key to see open windows and apps."
 msgstr "Trykk på Super-tasten for å se åpne vinduer og programmer."
 
-#: data/resources/ui/window.ui:24
-msgid "Just Type to Search"
-msgstr "Bare skriv for å søke"
-
-#: data/resources/ui/window.ui:25
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr "Skriv i oversikten for å søke. Start programmer, finn det du leter etter."
-
-#: data/resources/ui/window.ui:31
-msgid "Keep on Top with Workspaces"
-msgstr "Få kontroll med arbeidsområder"
-
-#: data/resources/ui/window.ui:32
-msgid "Easily organize windows with the workspaces view."
-msgstr "Organiser vinduer enkelt med den nye arbeidsområdevisningen."
-
-#: data/resources/ui/window.ui:38
+#: data/resources/ui/window.ui:26
 msgid "Up/Down for the Overview"
 msgstr "Opp/ned for oversikten"
 
-#: data/resources/ui/window.ui:39
+#: data/resources/ui/window.ui:27
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
 msgstr ""
 "Bruk vertikale dra-operasjoner med tre fingre på en berøringsskjerm. Prøv "
 "det!"
 
-#: data/resources/ui/window.ui:45
+#: data/resources/ui/window.ui:33
 msgid "Left/Right for Workspaces"
 msgstr "Venstre/høyre for arbeidsområder"
 
-#: data/resources/ui/window.ui:46
+#: data/resources/ui/window.ui:34
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
 msgstr ""
 "Bruk horisontale dra-operasjoner med tre fingre på en berøringsskjerm. Prøv "
 "det!"
 
-#: data/resources/ui/window.ui:52
+#: data/resources/ui/window.ui:40
 msgid "That's it. Have a nice day!"
 msgstr "Det var det. Ha en fin dag!"
 
-#: data/resources/ui/window.ui:53
+#: data/resources/ui/window.ui:41
 msgid "To get more advice and tips, see the Help app."
 msgstr "Se Hjelp applikasjonen for flere råd og tips."
 
-#. Translators: The following string is formated as "Learn about new and essential features in GNOME 3.36" for example
-#: src/widgets/window.rs:53
+#. Translators: The following string is formated as "Learn about new and
+#. essential features in GNOME 3.36" for example
+#: src/widgets/window.rs:52
 msgid "Learn about the key features in {name} {version}."
-msgstr "Lær om nye og viktige funksjoner i {name} {version}."
+msgstr ""

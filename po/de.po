@@ -1,30 +1,29 @@
-# German translation for gnome-tour.
-# Copyright (C) 2020 gnome-tour's COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-tour package.
-#
-# Joerg Schachner <jschachner@mailbox.org>, 2020.
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2020.
-# Christian Kirbach <christian.kirbach@gmail.com>, 2020,2021.
-# Philipp Kiemle <philipp.kiemle@gmail.com>, 2021.
-# Tim Sabsch <tim@sabsch.com>, 2022.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ettore Atalan <atalanttore@googlemail.com>, 2022
+# Will Thompson <wjt@endlessos.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2022-02-24 18:19+0000\n"
-"PO-Revision-Date: 2022-02-27 15:55+0100\n"
-"Last-Translator: Tim Sabsch <tim@sabsch.com>\n"
-"Language-Team: German <gnome-de@gnome.org>\n"
-"Language: de\n"
+"Project-Id-Version: gnome-tour\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-08 10:53+0000\n"
+"PO-Revision-Date: 2022-12-08 00:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
+"Language-Team: German (https://app.transifex.com/endless-os/teams/9016/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
 
-#: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: data/org.gnome.Tour.desktop.in.in:3
+#: data/org.gnome.Tour.metainfo.xml.in.in:7 src/main.rs:21
 msgid "Tour"
 msgstr "Einführung"
 
@@ -50,201 +49,63 @@ msgstr "Das GNOME-Projekt"
 
 #: data/resources/ui/paginator.ui:27
 msgid "Previous"
-msgstr "Zurück"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:40
 msgid "Next"
-msgstr "Weiter"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:53
 msgid "Start"
-msgstr "Starten"
+msgstr ""
 
 #: data/resources/ui/window.ui:11
 msgid "Start the Tour"
 msgstr "Die Einführung starten"
 
-#: data/resources/ui/window.ui:17
+#: data/resources/ui/window.ui:12 data/resources/ui/window.ui:42
+msgid "Learn more about Endless OS 5 on our website"
+msgstr ""
+
+#: data/resources/ui/window.ui:19
 msgid "Get an Overview"
 msgstr "Einen Überblick erhalten"
 
-#: data/resources/ui/window.ui:18
+#: data/resources/ui/window.ui:20
 msgid "Press the Super key to see open windows and apps."
 msgstr ""
 "Drücken Sie die »Super«-Taste, um offene Fenster und Anwendungen zu sehen."
 
-#: data/resources/ui/window.ui:24
-msgid "Just Type to Search"
-msgstr "Fangen Sie zum Suchen einfach an zu tippen"
-
-#: data/resources/ui/window.ui:25
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr "Tippen Sie in der Übersicht, um zu suchen oder Anwendungen zu starten."
-
-#: data/resources/ui/window.ui:31
-msgid "Keep on Top with Workspaces"
-msgstr "Mit Arbeitsflächen den Überblick behalten"
-
-#: data/resources/ui/window.ui:32
-msgid "Easily organize windows with the workspaces view."
-msgstr "Organisieren Sie Fenster ganz einfach mit der Arbeitsflächen-Ansicht."
-
-#: data/resources/ui/window.ui:38
+#: data/resources/ui/window.ui:26
 msgid "Up/Down for the Overview"
 msgstr "Hoch/Runter für Übersicht"
 
-#: data/resources/ui/window.ui:39
+#: data/resources/ui/window.ui:27
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
 msgstr ""
 "Nutzen Sie mit einem Touchpad eine vertikale Wischgeste mit drei Fingern. "
 "Probieren Sie es aus!"
 
-#: data/resources/ui/window.ui:45
+#: data/resources/ui/window.ui:33
 msgid "Left/Right for Workspaces"
 msgstr "Links/Rechts für Arbeitsflächen"
 
-#: data/resources/ui/window.ui:46
+#: data/resources/ui/window.ui:34
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
 msgstr ""
 "Nutzen Sie mit einem Touchpad eine horizontale Wischgeste mit drei Fingern. "
 "Probieren Sie es aus!"
 
-#: data/resources/ui/window.ui:52
+#: data/resources/ui/window.ui:40
 msgid "That's it. Have a nice day!"
 msgstr "Das war's. Haben Sie einen schönen Tag!"
 
-#: data/resources/ui/window.ui:53
+#: data/resources/ui/window.ui:41
 msgid "To get more advice and tips, see the Help app."
 msgstr "Weitere Erklärungen und Tipps finden Sie in der Hilfe-Anwendung."
 
-#. Translators: The following string is formated as "Learn about new and essential features in GNOME 3.36" for example
-#: src/widgets/window.rs:53
+#. Translators: The following string is formated as "Learn about new and
+#. essential features in GNOME 3.36" for example
+#: src/widgets/window.rs:52
 msgid "Learn about the key features in {name} {version}."
-msgstr "Lernen Sie die wesentlichen Funktionen von {name} {version} kennen."
-
-#~ msgid "Main Window"
-#~ msgstr "Hauptfenster"
-
-#~ msgid "_Close"
-#~ msgstr "S_chließen"
-
-#~ msgid "Make Apps Your Own"
-#~ msgstr "Machen Sie sich Apps zu eigen"
-
-#~| msgid "Arrange the app grid so it makes sense for you."
-#~ msgid "Arrange the app grid to your liking."
-#~ msgstr "Ordnen Sie das Anwendungsraster nach Ihrem Belieben an."
-
-#~ msgid "That's it! We hope that you enjoy {} {}."
-#~ msgstr "Das war's! Wir wünschen Ihnen viel Freude mit {} {}."
-
-#~ msgid "Welcome to {} {}"
-#~ msgstr "Willkommen in {} {}"
-
-#~ msgid "_No Thanks"
-#~ msgstr "_Nein danke"
-
-#~| msgid ""
-#~| "Hi there! If you are new to GNOME, you can take the tour to learn some "
-#~| "essential features."
-#~ msgid ""
-#~ "Hi there! Take the tour to learn your way around and discover essential "
-#~ "features."
-#~ msgstr ""
-#~ "Hallo! Begleiten Sie uns auf der Tour, um einige wichtige Funktionen "
-#~ "kennenzulernen."
-
-#~ msgid "The activities view can also be used to switch windows and search."
-#~ msgstr ""
-#~ "In der Aktivitätenübersicht können Sie auch Fenster wechseln und suchen."
-
-#~| msgid "In the Activities Overview, just start typing to search"
-#~ msgid ""
-#~ "In the activities view, just start typing to search for apps, settings "
-#~ "and more."
-#~ msgstr ""
-#~ "Fangen Sie zur Suche in der Aktivitäten-Übersicht einfach an zu tippen, "
-#~ "um nach Anwendungen, Einstellungen und mehr zu suchen."
-
-# Verstehe den Sinn auch im Original nicht
-#~| msgid "Click the time to see your now and next"
-#~ msgid "Click the time to see notifications"
-#~ msgstr "Klicken Sie auf die Uhrzeit, um Benachrichtigungen anzuzeigen"
-
-#~ msgid "The notifications popover also includes personal planning tools."
-#~ msgstr ""
-#~ "Die Benachrichtigungseinblendung enthält auch persönliche "
-#~ "Planungswerkzeuge."
-
-#~ msgid "View system information and settings"
-#~ msgstr "Systeminformationen und Einstellungen anzeigen"
-
-#~ msgid "Get an overview of the system status and quickly change settings."
-#~ msgstr ""
-#~ "Verschaffen Sie sich einen Überblick über den Systemstatus und ändern Sie "
-#~ "schnell die Einstellungen."
-
-#~| msgid "Find and install apps"
-#~ msgid "Use Software to find and install apps"
-#~ msgstr ""
-#~ "Verwenden Sie Software, um Anwendungen zu suchen und zu installieren"
-
-#~ msgid ""
-#~ "Discover great apps through search, browsing and our recommendations."
-#~ msgstr ""
-#~ "Entdecken Sie auf der Suche großartige Anwendungen und unsere "
-#~ "Empfehlungen."
-
-#~ msgid "GNOME Tour"
-#~ msgstr "GNOME Tour"
-
-#~ msgid "Take the Tour"
-#~ msgstr "Die Tour starten"
-
-#~ msgid "Activities Overview"
-#~ msgstr "Aktivitäten-Übersicht"
-
-#~ msgid "You can also view open windows, search and use workspaces."
-#~ msgstr ""
-#~ "Sie können auch geöffnete Fenster sehen, suchen und Arbeitsflächen nutzen."
-
-#~ msgid "Search"
-#~ msgstr "Suche"
-
-#~ msgid ""
-#~ "Search can be used to launch apps, find settings, do calculations and "
-#~ "much more."
-#~ msgstr ""
-#~ "Die Suche kann dazu genutzt werden, um Apps zu starten, Einstellungen zu "
-#~ "finden, Berechnungen auszuführen und vieles mehr."
-
-#~ msgid "Date & Time"
-#~ msgstr "Datum und Uhrzeit"
-
-#~ msgid ""
-#~ "This includes notifications, media controls, calendar events, the weather "
-#~ "and world clocks."
-#~ msgstr ""
-#~ "Dies umfasst Benachrichtigungen, Mediensteuerungen, Kalenderereignisse, "
-#~ "das Wetter und Weltuhren."
-
-#~ msgid "System Menu"
-#~ msgstr "Systemmenü"
-
-#~ msgid "Software"
-#~ msgstr "Software"
-
-#~ msgid ""
-#~ "The Software app makes it easy to find and install all the apps you need."
-#~ msgstr ""
-#~ "Mit der Software-App können Sie alle benötigten Apps leicht finden und "
-#~ "installieren."
-
-#~ msgid "Learn More"
-#~ msgstr "Mehr erfahren"
-
-#~ msgid "That's it! To learn more, see the Help"
-#~ msgstr "Das war's! Weitere Informationen erhalten Sie in der Hilfe"
-
-#~ msgid "The help app contains information, tips and tricks."
-#~ msgstr "Die Hilfe-Anwendung enthält Informationen, Tipps und Tricks."
+msgstr ""

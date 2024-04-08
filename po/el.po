@@ -1,25 +1,28 @@
-# Greek translation for gnome-tour.
-# Copyright (C) 2020 gnome-tour's COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-tour package.
-# Efstathios Iosifidis <eiosifidis@gnome.org>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Will Thompson <wjt@endlessos.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2022-02-24 18:19+0000\n"
-"PO-Revision-Date: 2022-03-24 13:25+0200\n"
-"Last-Translator: Efstathios Iosifidis <eiosifidis@gnome.org>\n"
-"Language-Team: Greek <gnome-el-list@gnome.org>\n"
-"Language: el\n"
+"Project-Id-Version: gnome-tour\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-08 10:53+0000\n"
+"PO-Revision-Date: 2022-12-08 00:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
+"Language-Team: Greek (https://app.transifex.com/endless-os/teams/9016/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
 
-#: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: data/org.gnome.Tour.desktop.in.in:3
+#: data/org.gnome.Tour.metainfo.xml.in.in:7 src/main.rs:21
 msgid "Tour"
 msgstr "Ξενάγηση"
 
@@ -45,143 +48,63 @@ msgstr "Το έργο GNOME"
 
 #: data/resources/ui/paginator.ui:27
 msgid "Previous"
-msgstr "Προηγούμενο"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:40
 msgid "Next"
-msgstr "Επόμενο"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:53
 msgid "Start"
-msgstr "Έναρξη"
+msgstr ""
 
 #: data/resources/ui/window.ui:11
 msgid "Start the Tour"
 msgstr "Έναρξη της ξενάγησης"
 
-#: data/resources/ui/window.ui:17
+#: data/resources/ui/window.ui:12 data/resources/ui/window.ui:42
+msgid "Learn more about Endless OS 5 on our website"
+msgstr ""
+
+#: data/resources/ui/window.ui:19
 msgid "Get an Overview"
 msgstr "Δείτε μια επισκόπηση"
 
-#: data/resources/ui/window.ui:18
+#: data/resources/ui/window.ui:20
 msgid "Press the Super key to see open windows and apps."
 msgstr ""
 "Πατήστε το Super key για να δείτε τα ανοιχτά παράθυρα και τις εφαρμογές."
 
-#: data/resources/ui/window.ui:24
-msgid "Just Type to Search"
-msgstr "Απλώς πληκτρολογήστε για αναζήτηση"
-
-#: data/resources/ui/window.ui:25
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr ""
-"Πληκτρολογήστε στην επισκόπηση για αναζήτηση. Εκκινήστε εφαρμογές, βρείτε "
-"πράγματα."
-
-#: data/resources/ui/window.ui:31
-msgid "Keep on Top with Workspaces"
-msgstr "Συνεχίστε με τους χώρους εργασίας"
-
-#: data/resources/ui/window.ui:32
-msgid "Easily organize windows with the workspaces view."
-msgstr "Οργανώστε εύκολα τα παράθυρα με την προβολή των χώρων εργασίας."
-
-#: data/resources/ui/window.ui:38
+#: data/resources/ui/window.ui:26
 msgid "Up/Down for the Overview"
 msgstr "Πάνω/Κάτω για την επισκόπηση"
 
-#: data/resources/ui/window.ui:39
+#: data/resources/ui/window.ui:27
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
 msgstr ""
-"Στην επιφάνεια αφής, χρησιμοποιήστε κάθετη ολίσθηση τριών δακτύλων. Δοκίμασέ "
-"το!"
+"Στην επιφάνεια αφής, χρησιμοποιήστε κάθετη ολίσθηση τριών δακτύλων. Δοκίμασέ"
+" το!"
 
-#: data/resources/ui/window.ui:45
+#: data/resources/ui/window.ui:33
 msgid "Left/Right for Workspaces"
 msgstr "Αριστερά/Δεξιά για χώρους εργασίας"
 
-#: data/resources/ui/window.ui:46
+#: data/resources/ui/window.ui:34
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
 msgstr ""
 "Στην επιφάνεια αφής, χρησιμοποιήστε οριζόντια ολίσθηση τριών δακτύλων. "
 "Δοκίμασέ το!"
 
-#: data/resources/ui/window.ui:52
+#: data/resources/ui/window.ui:40
 msgid "That's it. Have a nice day!"
 msgstr "Αυτό είναι. Να έχετε μια όμορφη μέρα!"
 
-#: data/resources/ui/window.ui:53
+#: data/resources/ui/window.ui:41
 msgid "To get more advice and tips, see the Help app."
 msgstr "Για περισσότερες συμβουλές, ανατρέξτε στην εφαρμογή Βοήθεια."
 
-#. Translators: The following string is formated as "Learn about new and essential features in GNOME 3.36" for example
-#: src/widgets/window.rs:53
+#. Translators: The following string is formated as "Learn about new and
+#. essential features in GNOME 3.36" for example
+#: src/widgets/window.rs:52
 msgid "Learn about the key features in {name} {version}."
-msgstr "Μάθετε για τα βασικά χαρακτηριστικά στο {name} {version}."
-
-#~ msgid "Main Window"
-#~ msgstr "Κυρίως παράθυρο"
-
-#~ msgid "_Close"
-#~ msgstr "_Κλείσιμο"
-
-#~ msgid "Make Apps Your Own"
-#~ msgstr "Κάντε τις εφαρμογές δικές σας"
-
-#~ msgid "Arrange the app grid to your liking."
-#~ msgstr "Τακτοποιήστε το πλέγμα εφαρμογών σύμφωνα με τις προτιμήσεις σας."
-
-#~ msgid "That's it! We hope that you enjoy {} {}."
-#~ msgstr "Αυτό είναι! Ελπίζουμε να σας αρέσει {} {}."
-
-#~ msgid "Welcome to {} {}"
-#~ msgstr "Καλώς ήρθατε στο {} {}"
-
-#~ msgid ""
-#~ "Hi there! Take the tour to learn your way around and discover essential "
-#~ "features."
-#~ msgstr ""
-#~ "Γεια σας! Θα ξεναγηθείτε ώστε να μάθετε πως να μετακινηθείτε στο σύστημα "
-#~ "και να ανακαλύψετε βασικά χαρακτηριστικά."
-
-#~ msgid "_No Thanks"
-#~ msgstr "Ό_χι ευχαριστώ"
-
-#~ msgid "The activities view can also be used to switch windows and search."
-#~ msgstr ""
-#~ "Η προβολή δραστηριοτήτων μπορεί επίσης να χρησιμοποιηθεί για εναλλαγή "
-#~ "παραθύρων και αναζήτηση."
-
-#~ msgid ""
-#~ "In the activities view, just start typing to search for apps, settings "
-#~ "and more."
-#~ msgstr ""
-#~ "Στην προβολή δραστηριοτήτων, απλώς ξεκινήστε να πληκτρολογείτε για "
-#~ "αναζήτηση εφαρμογών, ρυθμίσεων και άλλων."
-
-#~ msgid "Click the time to see notifications"
-#~ msgstr "Κάντε κλικ στην ώρα για να δείτε ειδοποιήσεις"
-
-#~ msgid "The notifications popover also includes personal planning tools."
-#~ msgstr ""
-#~ "Το αναδυόμενο παράθυρο ειδοποιήσεων περιλαμβάνει επίσης προσωπικά "
-#~ "εργαλεία σχεδιασμού."
-
-#~ msgid "View system information and settings"
-#~ msgstr "Δείτε πληροφορίες και ρυθμίσεις συστήματος"
-
-#~ msgid "Get an overview of the system status and quickly change settings."
-#~ msgstr ""
-#~ "Δείτε μια επισκόπηση της κατάστασης του συστήματος και αλλάξτε γρήγορα "
-#~ "τις ρυθμίσεις."
-
-#~ msgid "Use Software to find and install apps"
-#~ msgstr ""
-#~ "Χρησιμοποιήστε την εφαρμογή Λογισμικό για να βρείτε και να εγκαταστήσετε "
-#~ "εφαρμογές"
-
-#~ msgid ""
-#~ "Discover great apps through search, browsing and our recommendations."
-#~ msgstr ""
-#~ "Ανακαλύψτε εξαιρετικές εφαρμογές μέσω αναζήτησης, περιήγησης και των "
-#~ "προτάσεών μας."
+msgstr ""

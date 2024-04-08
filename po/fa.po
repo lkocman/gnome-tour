@@ -1,24 +1,28 @@
-# Persian translation for gnome-tour.
-# Copyright (C) 2020 gnome-tour's COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-tour package.
-# Danial Behzadi <dani.behzi@ubuntu.com>, 2020-2022.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Will Thompson <wjt@endlessos.org>, 2022
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-tour master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tour/issues\n"
-"POT-Creation-Date: 2022-01-29 11:03+0000\n"
-"PO-Revision-Date: 2022-02-21 17:30+0330\n"
-"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
-"Language-Team: Persian <fa@li.org>\n"
-"Language: fa\n"
+"Project-Id-Version: gnome-tour\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-08 10:53+0000\n"
+"PO-Revision-Date: 2022-12-08 00:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
+"Language-Team: Persian (https://app.transifex.com/endless-os/teams/9016/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0.1\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: data/org.gnome.Tour.desktop.in.in:3 data/org.gnome.Tour.metainfo.xml.in.in:7
-#: src/main.rs:21
+#: data/org.gnome.Tour.desktop.in.in:3
+#: data/org.gnome.Tour.metainfo.xml.in.in:7 src/main.rs:21
 msgid "Tour"
 msgstr "گردشگری"
 
@@ -36,125 +40,66 @@ msgstr "خوش‌آمدگویی و گردشگری گنوم"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:10
 msgid "A guided tour and greeter for GNOME."
-msgstr "یک خوش‌آمدگویی و گردشگری راهنمایی شده برای گنوم."
+msgstr "یک خوش‌امدگویی و گردشگری راهنمادار برای گنوم."
 
-#: data/org.gnome.Tour.metainfo.xml.in.in:15
-msgid "Main Window"
-msgstr "پنجرهٔ اصلی"
-
-#: data/org.gnome.Tour.metainfo.xml.in.in:38
+#: data/org.gnome.Tour.metainfo.xml.in.in:41
 msgid "The GNOME Project"
 msgstr "پروژهٔ گنوم"
 
 #: data/resources/ui/paginator.ui:27
 msgid "Previous"
-msgstr "پیشین"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:40
 msgid "Next"
-msgstr "بعدی"
+msgstr ""
 
 #: data/resources/ui/paginator.ui:53
 msgid "Start"
-msgstr "آغاز"
+msgstr ""
 
 #: data/resources/ui/window.ui:11
-msgid "Get an Overview"
-msgstr "گرفتن یک نمای کلّی"
-
-#: data/resources/ui/window.ui:12
-msgid "Press the Super key to see open windows and apps."
-msgstr "برای دیدن کاره‌ها و پنجره‌های باز، کلید سوپر را بزنید."
-
-#: data/resources/ui/window.ui:18
-msgid "Just Type to Search"
-msgstr "برای جست‌وجو، فقط بنویسید"
-
-#: data/resources/ui/window.ui:19
-msgid "Type in the overview to search. Launch apps, find things."
-msgstr "برای جست‌وجو، اجرای برنامه‌ها و یافتن چیزها، در نمای کلّی بنویسید."
-
-#: data/resources/ui/window.ui:25
-msgid "Keep on Top with Workspaces"
-msgstr "با فضاهای کاری، در بالا بمانید"
-
-#: data/resources/ui/window.ui:26
-msgid "Easily organize windows with the workspaces view."
-msgstr "با نمای فضاهای کاری، پنجره‌ها را به راحتی مدیریت کنید."
-
-#: data/resources/ui/window.ui:32
-msgid "Up/Down for the Overview"
-msgstr "بالا/پایین برای نمای کلّی"
-
-#: data/resources/ui/window.ui:33
-msgid "On a touchpad, use three-finger vertical swipes. Try it!"
-msgstr "روی یک صفحهٔ لمسی، از کشیدن عمودی سه‌انگشتی استفاده کنید. بیازماییدش!"
-
-#: data/resources/ui/window.ui:39
-msgid "Left/Right for Workspaces"
-msgstr "راست/چپ برای فضاهای کاری"
-
-#: data/resources/ui/window.ui:40
-msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr "روی یک صفحهٔ لمسی، از کشیدن افقی سه‌انگشتی استفاده کنید. بیازماییدش!"
-
-#: data/resources/ui/window.ui:46
-msgid "That's it. Have a nice day!"
-msgstr "همین. روز خوبی داشته باشید!"
-
-#: data/resources/ui/window.ui:47
-msgid "To get more advice and tips, see the Help app."
-msgstr "برای گرفتن توصیه‌ها و نکته‌های بیش‌تر، کارهٔ راهنما را ببینید."
-
-#: src/widgets/paginator.rs:79
-msgid "Learn about the key features in {name} {version}."
-msgstr "دربارهٔ ویژگی‌های کلیدی نگارش {version} از {name} بدانید."
-
-#: src/widgets/paginator.rs:84
 msgid "Start the Tour"
 msgstr "آغاز گردش"
 
-#~ msgid "_Close"
-#~ msgstr "_بستن"
+#: data/resources/ui/window.ui:12 data/resources/ui/window.ui:42
+msgid "Learn more about Endless OS 5 on our website"
+msgstr ""
 
-#~ msgid "Make Apps Your Own"
-#~ msgstr "کاره‌ها را از آن خود کنید"
+#: data/resources/ui/window.ui:19
+msgid "Get an Overview"
+msgstr "گرفتن یک نمای کلّی"
 
-#~ msgid "Arrange the app grid to your liking."
-#~ msgstr "شبکهٔ کاره‌ها را به سلیقهٔ خودتان مرتّب کنید."
+#: data/resources/ui/window.ui:20
+msgid "Press the Super key to see open windows and apps."
+msgstr "برای دیدن کاره‌ها و پنجره‌های باز، سوپر را بزنید."
 
-#~ msgid "That's it! We hope that you enjoy {} {}."
-#~ msgstr "همین! امیدواریم از {} {} لذّت ببرید."
+#: data/resources/ui/window.ui:26
+msgid "Up/Down for the Overview"
+msgstr "بالا/پایین برای نمای کلّی"
 
-#~ msgid "Welcome to {} {}"
-#~ msgstr "به {} {} خوش آمدید"
+#: data/resources/ui/window.ui:27
+msgid "On a touchpad, use three-finger vertical swipes. Try it!"
+msgstr "روی یک صفحهٔ لمسی، از کشیدن عمودی سه‌انگشتی استفاده کنید. بیازماییدش!"
 
-#~ msgid "Hi there! Take the tour to learn your way around and discover essential features."
-#~ msgstr "سلام! برای آموختن راهتان در اطراف و کشف ویژگی‌های اساسی، گردش کنید."
+#: data/resources/ui/window.ui:33
+msgid "Left/Right for Workspaces"
+msgstr "راست/چپ برای فضاهای کاری"
 
-#~ msgid "_No Thanks"
-#~ msgstr "_نه، ممنون"
+#: data/resources/ui/window.ui:34
+msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
+msgstr "روی یک صفحهٔ لمسی، از کشیدن افقی سه‌انگشتی استفاده کنید. بیازماییدش!"
 
-#~ msgid "The activities view can also be used to switch windows and search."
-#~ msgstr "نمای فعّالیت‌ها می‌تواند برای تعویض پنجره‌ها و حست‌وجو نیز به کار رود"
+#: data/resources/ui/window.ui:40
+msgid "That's it. Have a nice day!"
+msgstr "همین. روز خوبی داشته باشید!"
 
-#~ msgid "In the activities view, just start typing to search for apps, settings and more."
-#~ msgstr "برای جست‌وجوی کاره‌ها، تنظیمات و… کافیست در نمای فعّالیت‌ها شروع به نوشتن کنید."
+#: data/resources/ui/window.ui:41
+msgid "To get more advice and tips, see the Help app."
+msgstr "برای گرفتن توصیه‌ها و نکته‌های بیش‌تر، کارهٔ راهنما را ببینید."
 
-#~ msgid "Click the time to see notifications"
-#~ msgstr "برای دیدن آگاهی‌ها، روی زمان کلیک کنید"
-
-#~ msgid "The notifications popover also includes personal planning tools."
-#~ msgstr "نمای آگاهی‌ها شامل ابزارهای برنامه‌ریزی شخصی نیز هست."
-
-#~ msgid "View system information and settings"
-#~ msgstr "دیدن تنظیمات و اطّلاعات سامانه"
-
-#~ msgid "Get an overview of the system status and quickly change settings."
-#~ msgstr "یک نمای کلّی از وضعیت سامانه گرفته و تنظیمات را به سرعت تغییر دهید."
-
-#~ msgid "Use Software to find and install apps"
-#~ msgstr "برای یافتن و نصب کاره‌ها، از نرم‌افزارها استفاده کنید"
-
-#~ msgid "Discover great apps through search, browsing and our recommendations."
-#~ msgstr "با جست‌وجو، مرور و پیشنهادهایمان، کاره‌های عالی را کشف کنید."
+#. Translators: The following string is formated as "Learn about new and
+#. essential features in GNOME 3.36" for example
+#: src/widgets/window.rs:52
+msgid "Learn about the key features in {name} {version}."
+msgstr ""
