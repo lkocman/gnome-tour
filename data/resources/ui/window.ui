@@ -39,8 +39,6 @@
             <property name="resource-uri">/org/gnome/Tour/ready-to-go.svg</property>
             <property name="head" translatable="yes">That's it. Have a nice day!</property>
             <property name="body" translatable="yes">To get more advice and tips, see the Help app.</property>
-            <property name="extra" translatable="yes">Learn more about Endless OS 5 on our website</property>
-            <property name="extra-uri">https://support.endlessos.org/endless-os/release-notes/5</property>"
             <style>
               <class name="last-page" />
             </style>
