@@ -9,8 +9,6 @@
           <object class="ImagePageWidget" id="welcome_page">
             <property name="resource-uri">/org/gnome/Tour/welcome.svg</property>
             <property name="head" translatable="yes">Start the Tour</property>
-            <property name="extra" translatable="yes">Learn more about Endless OS 5 on our website</property>
-            <property name="extra-uri">https://support.endlessos.org/endless-os/release-notes/5</property>
           </object>
         </child>
         <child>
