@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-08 10:53+0000\n"
+"POT-Creation-Date: 2024-04-24 09:43+0000\n"
 "PO-Revision-Date: 2022-12-08 00:11+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
 "Language-Team: Catalan (https://app.transifex.com/endless-os/teams/9016/ca/)\n"
@@ -62,41 +62,37 @@ msgstr ""
 msgid "Start the Tour"
 msgstr "Comenceu la visita guiada"
 
-#: data/resources/ui/window.ui:12 data/resources/ui/window.ui:42
-msgid "Learn more about Endless OS 5 on our website"
-msgstr ""
-
-#: data/resources/ui/window.ui:19
+#: data/resources/ui/window.ui:17
 msgid "Get an Overview"
 msgstr "Obteniu una visió general"
 
-#: data/resources/ui/window.ui:20
+#: data/resources/ui/window.ui:18
 msgid "Press the Super key to see open windows and apps."
 msgstr ""
 "Premeu la tecla Súper per a veure les finestres i aplicacions obertes."
 
-#: data/resources/ui/window.ui:26
+#: data/resources/ui/window.ui:24
 msgid "Up/Down for the Overview"
 msgstr "Amunt/avall per a la visió general"
 
-#: data/resources/ui/window.ui:27
+#: data/resources/ui/window.ui:25
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
 msgstr "Amb un ratolí tàctil, feu lliscar tres dits verticalment. Proveu-ho!"
 
-#: data/resources/ui/window.ui:33
+#: data/resources/ui/window.ui:31
 msgid "Left/Right for Workspaces"
 msgstr "Esquerra/dreta per als espais de treball"
 
-#: data/resources/ui/window.ui:34
+#: data/resources/ui/window.ui:32
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
 msgstr ""
 "Amb un ratolí tàctil, feu lliscar tres dits horitzontalment. Proveu-ho!"
 
-#: data/resources/ui/window.ui:40
+#: data/resources/ui/window.ui:38
 msgid "That's it. Have a nice day!"
 msgstr "Això és. Bon dia!"
 
-#: data/resources/ui/window.ui:41
+#: data/resources/ui/window.ui:39
 msgid "To get more advice and tips, see the Help app."
 msgstr "Per a obtenir més consells i suggeriments, vegeu l'aplicació Ajuda."
 

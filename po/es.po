@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-08 10:53+0000\n"
+"POT-Creation-Date: 2024-04-24 09:43+0000\n"
 "PO-Revision-Date: 2022-12-08 00:11+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
 "Language-Team: Spanish (https://app.transifex.com/endless-os/teams/9016/es/)\n"
@@ -62,44 +62,40 @@ msgstr ""
 msgid "Start the Tour"
 msgstr "Empezar el tour"
 
-#: data/resources/ui/window.ui:12 data/resources/ui/window.ui:42
-msgid "Learn more about Endless OS 5 on our website"
-msgstr "Obtén más información de Endless OS 5 en nuestra página web"
-
-#: data/resources/ui/window.ui:19
+#: data/resources/ui/window.ui:17
 msgid "Get an Overview"
 msgstr "Obtener una visión general"
 
-#: data/resources/ui/window.ui:20
+#: data/resources/ui/window.ui:18
 msgid "Press the Super key to see open windows and apps."
 msgstr ""
 "Pulse la tecla Súper para ver todas las ventanas y aplicaciones abiertas."
 
-#: data/resources/ui/window.ui:26
+#: data/resources/ui/window.ui:24
 msgid "Up/Down for the Overview"
 msgstr "Subir/baja en la vista general"
 
-#: data/resources/ui/window.ui:27
+#: data/resources/ui/window.ui:25
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
 msgstr ""
 "En un «touchpad» use los desplazamientos verticales con tres dedos. "
 "¡Pruébelo!"
 
-#: data/resources/ui/window.ui:33
+#: data/resources/ui/window.ui:31
 msgid "Left/Right for Workspaces"
 msgstr "Izquierda/derecha para áreas de trabajo"
 
-#: data/resources/ui/window.ui:34
+#: data/resources/ui/window.ui:32
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
 msgstr ""
 "En un «touchpad» use los desplazamientos horizontales con tres dedos. "
 "¡Pruébelo!"
 
-#: data/resources/ui/window.ui:40
+#: data/resources/ui/window.ui:38
 msgid "That's it. Have a nice day!"
 msgstr "Eso es todo. Que tenga un buen día."
 
-#: data/resources/ui/window.ui:41
+#: data/resources/ui/window.ui:39
 msgid "To get more advice and tips, see the Help app."
 msgstr "Para obtener más consejos y pistas consulte la aplicación Ayuda."
 
